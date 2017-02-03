@@ -1,0 +1,16 @@
+#use_frameworks!
+
+source 'https://github.com/CocoaPods/Old-Specs'
+
+target 'RxBinding_Example' do
+
+  pod 'RxBinding', :path => '../'
+
+  target 'RxBinding_Tests' do
+    #inherit! :search_paths
+
+    pod 'Kiwi'
+
+  end
+
+end
